@@ -1,0 +1,64 @@
+
+body{
+    background: #eee;
+    font-family:Verdana;
+  }
+  
+  .cards-dark, .cards-light{
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  .card-dark{
+    width:30%;
+    margin:0 1.5%;
+    background: #333;
+    float:left;
+    border-radius:10px;
+    color:#999;
+  }
+  
+  .card-light{
+    width:30%;
+    margin:0 1.5%;
+    background: #fff;
+    float:left;
+    border-radius:10px;
+    color:#000;
+  }
+  
+  
+  .card-dark_image, .card-light_image{
+    width:100%;
+    height:300px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+  }
+  .card-dark_copy, .card-light_copy{
+    padding: 5px 20px;
+  }
+  .card-dark_copy, .card-light_copy h3{
+    margin-bottom: 0;
+  }
+  
+  
+  @media (max-width:767px){
+  
+   .card-dark, .card-light{
+     width: 90%;margin: 5%;
+   }
+  
+  }
+  
+  .clearfix:after {
+       visibility: hidden;
+       display: block;
+       font-size: 0;
+       content: " ";
+       clear: both;
+       height: 0;
+       }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */

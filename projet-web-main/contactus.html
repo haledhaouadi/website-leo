@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeoClub contact us</title>
+    <link rel="stylesheet" href="./css/contactus.css">
+</head>
+<body>
+    <section id="contact">
+        <div class="container">
+          <div class="head">Contact Us</div>
+          <div class="b">We'll get back to you soon!</div>
+    
+          <form action="contact1.php" method="post" class="form">
+              <div class="input-group">
+                  <input type="text" name="name" id="first-name" placeholder="name" required>
+                  <label for="first-name">Name</label>
+              </div>
+              
+              <div class="input-group">
+                  <input type="text" name="tel"  placeholder="Phone" required>
+                  <label for="last-name">Phone</label>
+              </div>
+    
+              <div class="input-group">
+                  <input type="email" name="email" id="e-mail" placeholder="e-mail" required>
+                  <label for="e-mail">e-mail</label>
+              </div>
+    
+              <div class="textarea-group">
+                  <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                  <label for="message">Message</label>
+              </div>
+    
+              <div class="button-div">
+                <a href="./index1.html" class="btn" >back</a>
+                  <button  class="btn" type ="submit" name="submit" >Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <script  src="./js/contactus.js"></script>
+</body>
+</html>

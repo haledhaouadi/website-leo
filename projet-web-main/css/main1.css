@@ -1,0 +1,130 @@
+body {
+	font-family: 'Russo One', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 100vw;
+	margin: 0 auto;
+	
+}
+
+
+.header{
+	background-color: #222;
+	height: 100vh;
+	
+}
+
+.menu-box {
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 110px;
+	flex-direction: column;
+
+	
+}
+.menu{
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+}
+.link1{
+	padding: 5px 10px ;
+	background-color: #fffc3b;
+	border-radius: 20px;
+	
+}
+.menu li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	padding: 13px ;
+	animation-name: headermain;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}
+.menu li a:hover {
+	font-size: 14px;
+}
+.menu-icon{
+	display: none;
+}
+.headermain{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.logo{
+	animation-name: headermain;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}
+.name{
+	font-size: 90px;
+	animation-name: headermain;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}
+.postname{
+	font-size: 32px;
+	padding-bottom: 26px;
+	animation-name: headermain;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}
+.btn{
+	width: 250px;
+	padding: 10px 20px;
+	background-color:#053c87;
+	font-size: 20px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	animation-name: headermain;
+	animation-duration: 4.5s;
+	animation-timing-function: ease;
+}
+
+
+@keyframes headermain {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.arrow-down {
+    padding-bottom: 60px;
+}
+.arrow-down div {
+   
+    padding-top: -5px;
+    animation: arrow-down 3s infinite;
+}
+@keyframes arrow-down {
+    0%{
+        opacity: 0;
+        transform:  translate(0px,-15px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform:  translate(0px,15px);
+    }
+}
